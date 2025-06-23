@@ -112,3 +112,69 @@ padding-top: 13px;
  height: 50px;
  width: 50px;
 }
+
+.Marketing-presentation{
+padding-top: 13px;
+
+}
+
+.image-marketing{ 
+     display: flex;
+     gap: 13px;
+}
+.Swot{
+  width: 40%;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+
+
+.titre-swot{
+    font-size: 29px;
+    padding: 20px;
+}
+
+.conclusion{
+padding: 13px
+;
+display:contents 
+
+}
+
+.présentation-design{
+    align-items: center;
+    padding: 13px;
+}
+.galerie-design{
+    padding: 13px;
+ width: 40%;
+display: flex;
+gap: 13px;
+align-items: center;
+}
+
+.galerie-web-design{
+    padding: 13px;
+ width: 40%;
+display: flex;
+gap: 13px;
+align-items: center;
+}
+
+.présentation-design{
+     align-items: center;
+    padding: 13px;
+}
+.galerie-web{
+     align-items: center;
+    padding: 13px;
+}
+
+.présentation{
+   justify-content: center;
+}
+
+.logo-réseaux-sociaux{
+    padding: 13px;
+    gap: 13px;
+}
