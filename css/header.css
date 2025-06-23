@@ -1,0 +1,22 @@
+#menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    list-style-type: none;
+}
+
+a{
+    color: bisque;
+}
+nav{
+    background-color: dimgray;
+    padding: 13px;
+    align-items: center;
+}
+
+nav ul li a:hover{
+    color:rgb(216, 173, 121);
+}
+
+.icone-contact

@@ -1,0 +1,114 @@
+@import url("css/header.css");
+
+.presentation {
+    gap: 4px;
+    display: flex;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bouton {
+    gap: 1px;
+    display: grid;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 20
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
+.article1 {
+    width: 300px;
+}
+
+
+.article2 {
+    width: 300px;
+}
+
+.article3 {
+    width: 300px;
+}
+
+.article4 {
+    width: 300px;
+}
+
+.article {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: center;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    padding-top: 13px;
+}
+
+.en-savoir-plus{
+    height: 10x;
+    width: 200px;
+    padding: 10px;
+   gap: 15px;
+   border-radius: 100px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+    justify-content: center;
+}
+
+p {
+    color: aliceblue;
+}
+
+.design {
+    padding-top: 16px;
+    align-items: center;
+}
+
+.titre {
+    display: block;
+    text-align: center;
+}
+
+.Marketing-presentation{
+padding-top: 13px;
+}
+
+.formulaire{
+    color: white;
+    display: grid;
+   
+}
+
+.contact-image{
+    padding: 20px;
+    display: flex;
+    gap: 13px;
+}
+
+.texte-contact{
+    padding: 20px;
+}
+
+.icone-contact img{
+    padding: 20px;
+    gap: 13px;
+ height: 50px;
+ width: 50px;
+}
