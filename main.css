@@ -59,12 +59,12 @@ main {
     padding-top: 13px;
 }
 
-.en-savoir-plus{
+.en-savoir-plus {
     height: 10x;
     width: 200px;
     padding: 10px;
-   gap: 15px;
-   border-radius: 100px;
+    gap: 15px;
+    border-radius: 100px;
 }
 
 body {
@@ -86,95 +86,96 @@ p {
     text-align: center;
 }
 
-.Marketing-presentation{
-padding-top: 13px;
+.Marketing-presentation {
+    padding-top: 13px;
 }
 
-.formulaire{
+.formulaire {
     color: white;
     display: grid;
-   
+
 }
 
-.contact-image{
+.contact-image {
     padding: 20px;
     display: flex;
     gap: 13px;
 }
 
-.texte-contact{
+.texte-contact {
     padding: 20px;
 }
 
-.icone-contact img{
+.icone-contact img {
     padding: 20px;
     gap: 13px;
- height: 50px;
- width: 50px;
+    height: 50px;
+    width: 50px;
 }
 
-.Marketing-presentation{
-padding-top: 13px;
+.Marketing-presentation {
+    padding-top: 13px;
 
 }
 
-.image-marketing{ 
-     display: flex;
-     gap: 13px;
+.image-marketing {
+    display: flex;
+    gap: 13px;
 }
-.Swot{
-  width: 40%;
+
+.Swot {
+    width: 40%;
     justify-content: center;
     padding-bottom: 13px;
 }
 
 
-.titre-swot{
+.titre-swot {
     font-size: 29px;
     padding: 20px;
 }
 
-.conclusion{
-padding: 13px
-;
-display:contents 
-
+.conclusion {
+    padding: 13px;
+    display: contents
 }
 
-.présentation-design{
+.présentation-design {
     align-items: center;
     padding: 13px;
 }
-.galerie-design{
+
+.galerie-design {
     padding: 13px;
- width: 40%;
-display: flex;
-gap: 13px;
-align-items: center;
+    width: 40%;
+    display: flex;
+    gap: 13px;
+    align-items: center;
 }
 
-.galerie-web-design{
+.galerie-web-design {
     padding: 13px;
- width: 40%;
-display: flex;
-gap: 13px;
-align-items: center;
+    width: 40%;
+    display: flex;
+    gap: 13px;
+    align-items: center;
 }
 
-.présentation-design{
-     align-items: center;
-    padding: 13px;
-}
-.galerie-web{
-     align-items: center;
+.présentation-design {
+    align-items: center;
     padding: 13px;
 }
 
-.présentation{
-   justify-content: center;
+.galerie-web {
+    align-items: center;
+    padding: 13px;
 }
 
-.logo-réseaux-sociaux{
+.présentation {
+    justify-content: center;
+}
+
+.logo-réseaux-sociaux {
     padding: 13px;
     gap: 13px;
 }

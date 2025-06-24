@@ -1,24 +1,23 @@
-#menu-list{
+#menu-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     list-style-type: none;
-    
+
 }
 
-.menu-item a{
-  color: bisque;
+.menu-item a {
+    color: bisque;
 }
 
 
-nav{
+nav {
     background-color: dimgray;
     padding: 13px;
     align-items: center;
 }
 
-nav ul li a:hover{
-    color:rgb(216, 173, 121);
+nav ul li a:hover {
+    color: rgb(216, 173, 121);
 }
-
