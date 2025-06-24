@@ -79,6 +79,7 @@ p {
 .design {
     padding-top: 16px;
     align-items: center;
+
 }
 
 .titre {
@@ -150,7 +151,7 @@ p {
     width: 40%;
     display: flex;
     gap: 13px;
-    align-items: center;
+   
 }
 
 .galerie-web-design {
@@ -178,4 +179,8 @@ p {
 .logo-réseaux-sociaux {
     padding: 13px;
     gap: 13px;
+}
+
+.en-savoir-plus{
+    justify-content: center;
 }
