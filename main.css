@@ -69,7 +69,6 @@ main {
 
 body {
     background-color: rgba(0, 0, 0, 0.877);
-    justify-content: center;
 }
 
 p {
@@ -142,13 +141,13 @@ p {
 }
 
 .présentation-design {
-    align-items: center;
     padding: 13px;
+    display: flex;
+    flex-direction: column;
 }
 
 .galerie-design {
     padding: 13px;
-    width: 40%;
     display: flex;
     gap: 13px;
    
@@ -156,10 +155,9 @@ p {
 
 .galerie-web-design {
     padding: 13px;
-    width: 40%;
     display: flex;
     gap: 13px;
-    align-items: center;
+
 }
 
 .présentation-design {
@@ -168,10 +166,11 @@ p {
 }
 
 .galerie-web {
-    align-items: center;
-    padding: 13px;
+     padding: 13px;
+     display: flex;
+    flex-direction: column;
+    gap: 13px;
 }
-
 .présentation {
     justify-content: center;
 }
@@ -183,4 +182,14 @@ p {
 
 .en-savoir-plus{
     justify-content: center;
+    display: flex;
+}
+
+.btn-en-svoir-plus {
+    justify-content: center;
+    gap: 13px;
+}
+
+.design-redirection.html{
+    align-items: center; 
 }
