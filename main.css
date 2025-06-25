@@ -168,7 +168,7 @@ p {
 .galerie-web {
      padding: 13px;
      display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse ;
     gap: 13px;
 }
 .présentation {
@@ -192,4 +192,12 @@ p {
 
 .design-redirection.html{
     align-items: center; 
+}
+
+.présentation-web{
+    display: flex;
+}
+
+img{
+    display: flex;
 }
