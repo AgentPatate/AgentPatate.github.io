@@ -163,12 +163,14 @@ p {
     padding: 13px;
     display: flex;
     gap: 13px;
+    
 
 }
 
 .présentation-design {
     align-items: center;
     padding: 13px;
+   
 }
 
 .galerie-web {
@@ -176,6 +178,7 @@ p {
      display: flex;
     flex-direction: column-reverse ;
     gap: 13px;
+    
 }
 .présentation {
     justify-content: center;
@@ -205,15 +208,3 @@ p {
 }
 
 
-  .cartes {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  .carte {
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color:darkgrey ;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }

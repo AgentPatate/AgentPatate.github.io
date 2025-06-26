@@ -1,0 +1,15 @@
+.cartes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+   align-items: center;
+  }
+  .carte {
+  
+    padding: 15px;
+    border: 5px solid #ccc;
+    border-radius: 14px;
+    background-color:darkgrey ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   
+  }
