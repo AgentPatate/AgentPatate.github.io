@@ -63,6 +63,7 @@ main {
     display: grid;
     place-items: center;
     padding-top: 13px;
+    gap: 50px;
 }
 
 .en-savoir-plus {
@@ -71,6 +72,7 @@ main {
     padding: 10px;
     gap: 15px;
     border-radius: 100px;
+    text-decoration: none;
 }
 
 body {
@@ -215,4 +217,12 @@ p {
     gap: 20px;
     border-radius: 100px;
     justify-content: center;
+}
+
+button{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
 }
