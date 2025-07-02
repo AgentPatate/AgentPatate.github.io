@@ -1,19 +1,18 @@
-// import-menu.js
+document.addEventListener('DOMContentLoaded', chargerMenu);
 
-// Sélectionne l'élément où insérer le menu
-const header = document.getElementById('header');
+async function chargerMenu() {
+  try {
+    const header = document.getElementById('header');
+    const reponse = await fetch('../html/header.html');
 
-// Charge le fichier menu.html
-fetch('/html/header.html')
-  .then(response => {
-    if (!response.ok) {
+    if (!reponse.ok) {
       throw new Error('Erreur lors du chargement du menu');
     }
-    return response.text();
-  })
-  .then(data => {
-    header.innerHTML = data;
-  })
-  .catch(error => {
-    console.error('Erreur :', error);
-  });
+
+    const html = await reponse.text();
+    header.innerHTML = html;
+
+  } catch (erreur) {
+    console.error('Erreur :', erreur);
+  }
+}
