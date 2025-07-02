@@ -15,4 +15,23 @@ async function chargerMenu() {
   } catch (erreur) {
     console.error('Erreur :', erreur);
   }
+  //menu burger
+
+  const menulist = document.getElementById('menu-list');
+  const menutoggle = document.getElementById('menu-toggle');
+  menutoggle.addEventListener('click', function () {
+    menulist.classList.toggle('expanded');
+    menutoggle.classList.toggle('expanded');
+  });
+
+  const currentURL = window.location.pathname;
+  console.log('Current URL:', currentURL);
+  const links = document.querySelectorAll('nav a');
+
+  links.forEach(link => {
+    if (link.getAttribute('href') === currentURL) {
+      link.classList.add('active');
+    }
+  });
+
 }

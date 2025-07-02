@@ -1,5 +1,5 @@
 #menu-list {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -8,7 +8,7 @@
 
 }
 
-.menu-item a {
+.menu-item  {
     color: bisque;
 }
 
@@ -17,8 +17,67 @@ nav {
     background-color: dimgray;
     padding: 13px;
     align-items: center;
+    grid-template-columns: auto 1fr;
+    margin: 2em 0;
+    place-items: center;
 }
+
+
+#menu-toggle {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+
+}
+
 
 nav ul li a:hover {
     color: rgb(216, 173, 121);
+}
+
+
+.nav-toggle-item {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px auto;
+  position: absolute;
+}
+
+.nav-toggle-item:nth-child(1) {
+    top: 0;
+}
+
+.nav-toggle-item:nth-child(2) {
+    top: 8px;
+}
+
+.nav-toggle-item:nth-child(3) {
+    top: 16px;
+}
+
+#menu-toggle.expanded .nav-toggle-item:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-toggle.expanded .nav-toggle-item:nth-child(1) {
+    transform:translateY(8px) rotate(45deg);
+}
+
+#menu-toggle.expanded .nav-toggle-item:nth-child(3) {
+    transform:translateY(-8px) rotate(-45deg);
+}
+
+#menu-list.expanded {
+    display: flex;
+}
+
+.active {
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 10px;
+
 }

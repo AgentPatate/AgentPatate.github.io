@@ -6,6 +6,8 @@
 @import url("css/marketing.css");
 @import url("css/redirection-code.css");
 @import url("css/web-design-redirection.css");
+@import url("css/index.css");
+
 .presentation {
     gap: 4px;
     display: flex;
@@ -229,10 +231,6 @@ p {
      background-color: dimgray;
      color: bisque; 
 
-}
-
-button{
-    text-decoration: none;
 }
 
 a{
