@@ -10,11 +10,12 @@
 
 .presentation {
     gap: 4px;
-    display: flex;
+    display: flex 
 }
 
 
 * {
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
@@ -38,19 +39,27 @@ h2 {
 
 .article1 {
     width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 .article2 {
     width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .article3 {
     width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .article4 {
     width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .article {
@@ -66,6 +75,8 @@ main {
     place-items: center;
     padding-top: 13px;
     gap: 50px;
+    
+    flex-wrap: wrap;
 }
 
 .en-savoir-plus {
@@ -84,6 +95,7 @@ body {
 
 p {
     color: aliceblue;
+    flex-wrap: wrap;
 }
 
 .design {
