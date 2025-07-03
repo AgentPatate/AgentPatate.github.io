@@ -7,7 +7,7 @@
 @import url("css/redirection-code.css");
 @import url("css/web-design-redirection.css");
 @import url("css/index.css");
-
+@import url(css/slider.css);
 .presentation {
     gap: 4px;
     display: flex 
@@ -272,4 +272,11 @@ a{
 p{
      font-size: 1.1rem;     
   line-height: 1.6; 
+   margin: 0 auto;         
+  padding: 40px 20px;     
+  text-align: justify;    
+  color: white;          
+  font-size: 1.1rem;     
+  line-height: 1.6;
 }
+
