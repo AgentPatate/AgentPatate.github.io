@@ -81,3 +81,16 @@ nav ul li a:hover {
     padding: 10px;
 
 }
+
+@media screen and (min-width: 600px) {
+    #menu-toggle {
+        display: none;
+    }
+    
+    #menu-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+}
