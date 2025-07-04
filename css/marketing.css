@@ -1,0 +1,108 @@
+.Marketing-presentation {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+ 
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+  border-radius: 8px;
+}
+
+/* -------- Images Marketing -------- */
+.image-marketing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.image-marketing img {
+  max-width: 100%;
+  height: auto;
+  flex: 1 1 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* -------- SWOT Section -------- */
+.Swot {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.titre-swot {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.Swot p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.Swot img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* -------- Conclusion -------- */
+.conclusion {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  
+  font-size: 1rem;
+  line-height: 1.7;
+  border-radius: 8px;
+}
+
+.conclusion img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* -------- Responsive Breakpoints -------- */
+@media screen and (max-width: 768px) {
+  .Marketing-presentation,
+  .Swot,
+  .conclusion {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .titre-swot {
+    font-size: 1.4rem;
+  }
+
+  .image-marketing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-marketing img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Marketing-presentation,
+  .Swot,
+  .conclusion {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .titre-swot {
+    font-size: 1.2rem;
+  }
+}

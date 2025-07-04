@@ -280,3 +280,37 @@ p{
   line-height: 1.6;
 }
 
+.presentation {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.7;
+
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive typography and spacing */
+@media screen and (max-width: 1024px) {
+  .presentation {
+    padding: 1.2rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .presentation {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .presentation {
+    padding: 0.8rem;
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+}
