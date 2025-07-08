@@ -2,7 +2,7 @@
     display: none;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 15px;
     list-style-type: none;
    
 
@@ -13,22 +13,25 @@
 }
 
 
+
 nav {
     background-color: dimgray;
     padding: 13px;
     align-items: center;
     grid-template-columns: auto 1fr;
-    margin: 2em 0;
     place-items: center;
 }
 
 
 #menu-toggle {
-    position: relative;
+    position: absolute ;
     width: 50px;
     height: 30px;
     background-color: transparent;
     border: none;
+    top: 0;
+    left: 0
+
 
 }
 
@@ -44,7 +47,15 @@ nav ul li a:hover {
     height: 3px;
     background-color: rgb(0, 0, 0);
     margin: 5px auto;
-  position: absolute;
+ position: absolute;
+    transition: all 02s ease;
+    border-radius: 0.1px;
+    opacity: 1;
+    z-index: 10;
+    top: 0;
+    left: 0
+    
+  
 }
 
 .nav-toggle-item:nth-child(1) {
@@ -72,7 +83,10 @@ nav ul li a:hover {
 }
 
 #menu-list.expanded {
-    display: flex;
+    
+    place-items: center;
+    display: grid;
+    
 }
 
 .active {
