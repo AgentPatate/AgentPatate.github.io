@@ -7,9 +7,9 @@
 @import url("css/redirection-code.css");
 @import url("css/web-design-redirection.css");
 @import url("css/index.css");
-@import url(css/slider.css);
-@import url(css/footer.css);
-@import url(css/back-to-top.css);
+@import url("css/slider.css");
+@import url("css/footer.css");
+@import url("css/back-to-top.css");
 
 .presentation {
     gap: 4px;
@@ -90,11 +90,19 @@ main {
     border-radius: 100px;
     background-color: dimgray;
      color: bisque; 
-     margin-bottom: 30px;
+      margin-bottom: 30px;
+     
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.877);
+    background-color:rgb(0, 0, 0);
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 p {
@@ -211,25 +219,10 @@ p {
     gap: 13px;
 }
 
-.en-savoir-plus{
-    justify-content: center;
-    display: flex;
-     background-color: dimgray;
-     color: bisque; 
-}
 
 
-.btn-en-svoir-plus {
-    justify-content: center;
-    gap: 13px;
-     background-color: dimgray;
-     color: bisque; 
 
-}
 
-.design-redirection.html{
-    align-items: center; 
-}
 
 .présentation-web{
     display: flex;
@@ -246,6 +239,7 @@ p {
     justify-content: center;
      background-color: dimgray;
      color: bisque; 
+     margin-bottom: 30px;
      
 
 }
