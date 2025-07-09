@@ -63,7 +63,7 @@ nav ul li a:hover {
     display: block;
     width: 30px;
     height: 3px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     margin: 5px auto;
  position: absolute;
     transition: all 02s ease;
