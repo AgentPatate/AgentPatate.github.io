@@ -1,3 +1,13 @@
+header {
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+
+    background-color: dimgray;
+    padding: 10px;
+    position: relative;
+}
+
 #menu-list {
     display: none;
     justify-content: center;
@@ -30,7 +40,9 @@ nav {
     background-color: transparent;
     border: none;
     top: 0;
-    left: 0
+    left: 0;
+    z-index: 10;
+    cursor: pointer;    
 
 
 }
