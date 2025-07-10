@@ -40,37 +40,12 @@ h2 {
 }
 
 
-.article1 {
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-
-.article2 {
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.article3 {
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.article4 {
-    width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .article {
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
-    justify-content: center;
 }
 
 main {
