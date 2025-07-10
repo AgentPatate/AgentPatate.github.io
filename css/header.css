@@ -53,6 +53,13 @@ nav {
 
 }
 
+.icone-contact img {
+    padding: 20px;
+  
+    height: px;
+    width: 30px;
+}
+
 
 nav ul li a:hover {
     color: rgb(216, 173, 121);
