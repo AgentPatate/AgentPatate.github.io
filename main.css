@@ -68,7 +68,7 @@ h2 {
 }
 .article div{
    
-    flex: 1;
+   
     padding: 20px;
     max-width: 400px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -76,6 +76,13 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
 }
 
+
+@media  (max-width: 480px) {
+    .article{
+        display: block;
+    }
+  
+}
 main {
     display: grid;
     place-items: center;
