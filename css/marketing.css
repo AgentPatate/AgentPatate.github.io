@@ -41,6 +41,15 @@
   margin-bottom: 1rem;
 }
 
+.texte-Swot{
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  
+
+}
+
 .Swot p {
   max-width: 800px;     
   margin: 0 auto;         
@@ -52,6 +61,7 @@
 }
 
 .Swot img {
+  max-width: 800px;   
   width: 100%;
   height: auto;
   border-radius: 8px;
