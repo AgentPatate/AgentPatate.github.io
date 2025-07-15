@@ -25,7 +25,6 @@ async function chargerMenu() {
   });
 
   const currentURL = window.location.pathname;
-  console.log('Current URL:', currentURL);
   const links = document.querySelectorAll('nav a');
 
   links.forEach(link => {

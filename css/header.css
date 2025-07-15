@@ -1,11 +1,11 @@
 header {
- background:
-radial-gradient(black 15%, transparent 16%) 0 0,
-radial-gradient(black 15%, transparent 16%) 8px 8px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-background-color:#282828;
-background-size:16px 16px;
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
     display: flex;
     justify-content: center;
     padding: 5px;
@@ -18,11 +18,20 @@ background-size:16px 16px;
     align-items: center;
     gap: 15px;
     list-style-type: none;
-   
+
 
 }
 
-.menu-item  {
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu-item {
     color: bisque;
 }
 
@@ -38,23 +47,20 @@ nav {
 
 
 #menu-toggle {
-    position: absolute ;
+    position: absolute;
     width: 50px;
     height: 30px;
     background-color: transparent;
     border: none;
-    top: 0;
-    left: 0;
+    left: 10px;
     z-index: 10;
-    cursor: pointer;    
+    cursor: pointer;
 
 
 }
 
 .icone-contact img {
     padding: 20px;
-  
-    height: px;
     width: 30px;
 }
 
@@ -70,15 +76,13 @@ nav ul li a:hover {
     height: 3px;
     background-color: rgb(255, 255, 255);
     margin: 5px auto;
- position: absolute;
+    position: absolute;
     transition: all 02s ease;
     border-radius: 0.1px;
     opacity: 1;
     z-index: 10;
     top: 0;
     left: 0
-    
-  
 }
 
 .nav-toggle-item:nth-child(1) {
@@ -98,18 +102,18 @@ nav ul li a:hover {
 }
 
 #menu-toggle.expanded .nav-toggle-item:nth-child(1) {
-    transform:translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
 }
 
 #menu-toggle.expanded .nav-toggle-item:nth-child(3) {
-    transform:translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 #menu-list.expanded {
-    
+
     place-items: center;
     display: grid;
-    
+
 }
 
 .active {
@@ -123,7 +127,16 @@ nav ul li a:hover {
     #menu-toggle {
         display: none;
     }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 20px;
     
+
+    }
+
     #menu-list {
         display: flex;
         justify-content: center;

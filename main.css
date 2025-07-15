@@ -50,12 +50,10 @@ h2 {
 
 
 .article {
-    
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
-    
-    
+    justify-content: center;
 }
 
 
@@ -153,11 +151,6 @@ p {
     gap: 13px;
 }
 
-.Swot {
-    width: 40%;
-    justify-content: center;
-    padding-bottom: 13px;
-}
 
 
 .titre-swot {
