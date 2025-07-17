@@ -7,26 +7,43 @@ header {
     background-color: #282828;
     background-size: 16px 16px;
     display: flex;
-    justify-content: center;
-    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
     position: relative;
+    width: 100%;
 }
 
 #menu-list {
     display: none;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     list-style-type: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    padding: 1rem;
+    z-index: 100;
 }
 
 .logo {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    justify-content: flex-end;
-    display: flex;
-    margin-right: 20px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .menu-item {
@@ -35,11 +52,13 @@ header {
 
 
 nav {
-
-    padding: 13px;
+    display: flex;
     align-items: center;
-    grid-template-columns: auto 1fr;
-    place-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5rem;
+    position: relative;
+    margin-right: 70px;
 }
 
 
@@ -72,8 +91,8 @@ nav ul li a:hover {
     background-color: rgb(255, 255, 255);
     margin: 5px auto;
     position: absolute;
-    transition: all 02s ease;
-    border-radius: 0.1px;
+    transition: all 0.1s ease;
+    border-radius: 0.5px;
     opacity: 1;
     z-index: 10;
     top: 0;
@@ -105,9 +124,10 @@ nav ul li a:hover {
 }
 
 #menu-list.expanded {
-
-    place-items: center;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 32px;
 }
 
 .active {
@@ -120,23 +140,31 @@ nav ul li a:hover {
     #menu-toggle {
         display: none;
     }
-nav{
-    justify-content: ;
 
-}
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-right: 70px;
+    }
+
     .logo {
-      
         width: 50px;
         height: 50px;
         border-radius: 50%;
         margin-right: 20px;
-
     }
 
     #menu-list {
+        position: static;
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: flex-end;
         align-items: center;
-        gap: 100px;
+        gap: 2rem;
+        background-color: transparent;
+        padding: 0;
+        width: auto;
     }
 }
