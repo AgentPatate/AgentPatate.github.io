@@ -73,7 +73,6 @@
 .caption-container {
 justify-content: center;
   background-color: #222;
-  padding: 2px 16px;
   color: white;
 }
 
@@ -109,4 +108,11 @@ justify-content: center;
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+@media (max-width: 768px){
+  #container {
+   max-width: 100%;
+   
+}
 }
